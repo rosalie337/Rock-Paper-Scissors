@@ -5,39 +5,31 @@ header {
 
 }
 
-.rpsimage {
-    text-align: center;
-}
 body {
-
+    
     background-color:rgb(251, 239, 13) ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
     sans-serif;
-    font size: 20px;
+    /* font-size: 20px; */
     text-align: left;
     object-fit: cover;
-
-}
-
-.throws-text {
-
-    text-align: center;
-}
-
-    
-
 }
 
 button {
     object-position: center;
 }
-.instructions {
 
-    text-align: justify;
-
-
+.rpsimage {
+    text-align: center;
 }
 
-ul {
+.instructions {
+    
+    text-align: left;
+    
+}
+
+#throws-text {
+
     text-align: center;
 }
