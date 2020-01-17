@@ -1,9 +1,7 @@
 export function getRandomThrow() {
 
     const randomNumber = Math.floor(Math.random() * 3);
-
-    const array = ['Rock', 'Paper', 'Scissors']
-
+    const array = ['Rock', 'Paper', 'Scissors'];
     return array[randomNumber];
 
 }
