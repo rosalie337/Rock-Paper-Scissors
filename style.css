@@ -7,6 +7,11 @@ header {
 
 body {
     
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     background-color:rgb(251, 239, 13) ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 
     sans-serif;
@@ -20,7 +25,10 @@ button {
 }
 
 .rpsimage {
+   
+    
     text-align: center;
+    background-position: center;
 }
 
 .instructions {

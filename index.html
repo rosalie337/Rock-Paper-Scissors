@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head id=header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,87 +7,53 @@
     <link rel="stylesheet" href="style.css">
     <title>Rock, Paper, Scissors</title>
 </head>
-
-
 <body>
-    <header>Rock x Paper x Scissors</header> 
-    
-<img id="rpsimage" src=https://www.esquireme.com/sites/default/files/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=EB8fRWP9>
+    <header>Rock x Paper x Scissors  
+<img id="rpsimage" src='https://www.esquireme.com/sites/default/files/styles/full_img/public/images/2017/05/29/rock_paper_scissors__2x.png?itok=EB8fRWP9'>
+    </header> 
+        <div id="throws-text">
+            <label>
+                <input class="radio-buttons" type=radio name=throw value="Rock" checked></intput>
+                <span>Rock</span>
+            </label>
 
-     <div id="throws-text">
-         <label>
-             <input class="radio-buttons" type=radio name=throw value="Rock" checked></intput>
-             <span>Rock</span>
-        </label>
-
-        <label>
-            <input class="radio-buttons" type=radio name=throw value="Scissors"></intput>
-            <span>Scissors</span>
-        </label>
-
-        <label>
+            <label>
+                <input class="radio-buttons" type=radio name=throw value="Scissors"></intput>
+                <span>Scissors</span>
+            </label>
+            <label>
             <input class="radio-button" type=radio name=throw value="Paper"></intput>
-        <span>Paper</span>
-        </label>
-    
-    <br></br>
-
-    <button id="throw-button">Shoot!</button>
-
-    <button id="reset-button">Reset</button> 
-
-    <section id="results">
-        
-        <p id="computer-play" img src="" class="hidden" alt=""></p>
-        
-        <p id="results-display"></p>
-
-        <ul id="score-display" style="list-style-type:none;" class="hidden">
-
-            <li>Wins: <span id='wins'>0</span></li>
-            <li>Losses: <span id='losses'>0</span></li>
-            <li>Draws: <span id='draws'>0</span></p></li>
-            
-        </ul>
-       
-     </section>
-
-<div class="instructions">
-
-    <p>Instructions:</p>
-    
-    <ol>
-
-    <li> Select your throw</li>
-    <li> Click 'Shoot' to play</li>
-
-    </ol>
-
-    <p>Rock, Paper, Scissors (aka "Ro-Sham-Bo"; janken; "Bato, Bato, Pick"; and "Scissors, Paper, Stone") is a simple hand game with many names and variations. It is played around the world and is commonly used as a way of coming to decisions. In some cases is even played for sport. The rules require that competing players use one hand to form one of three shapes at an agreed-upon time. </p>
-
-    <p> What to know:</p>
-
-    <ul style="list-style-type:none;">
-
-        <li>rock beats scissors</li>
-        <li>scissors beats paper</li>
-        <li>paper beats rock</li>
-        
-
-      </ul>
-    
-    <p>The person that plays the strongest “object” is the winner of the game. It's that easy!</p>
-
-
-
-</div>
-
+                <span>Paper</span>
+            </label>
+        <br></br>
+            <button id="throw-button">Shoot!</button>
+            <button id="reset-button">Reset</button> 
+         <section id="results">
+            <p id="computer-play" img src="" class="hidden" alt=""></p>
+            <p id="results-display"></p>
+            <ul id="score-display" style="list-style-type:none;" class="hidden">
+                <li>Wins: <span id='wins'>0</span></li>
+                <li>Losses: <span id='losses'>0</span></li>
+                <li>Draws: <span id='draws'>0</span></p></li>    
+            </ul>
+        </section>
+    <div class="instructions">
+        <p>Instructions:</p>
+            <ol>
+                <li> Select your throw</li>
+                <li> Click 'Shoot' to play</li>
+            </ol>
+        <p>Rock, Paper, Scissors (aka "Ro-Sham-Bo"; janken; "Bato, Bato, Pick"; and "Scissors, Paper, Stone") is a simple hand game with many names and variations. It is played around the world and is commonly used as a way of coming to decisions. In some cases is even played for sport. The rules require that competing players use one hand to form one of three shapes at an agreed-upon time. </p>
+        <p> What to know:</p>
+            <ul style="list-style-type:none;">
+                <li>rock beats scissors</li>
+                <li>scissors beats paper</li>
+                <li>paper beats rock</li>
+            </ul>
+        <p>The person that plays the strongest “object” is the winner of the game. It's that easy!</p>
+    </div>
     <script type="module" src="app.js"></script>
-
 </body>
-
 <footer>
-
 </footer>
-
 </html>
